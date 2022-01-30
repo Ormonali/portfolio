@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitendra-kr/node-js-project-structure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jitendra-kr/node-js-project-structure/issues"
+  },
+  "homepage": "https://github.com/jitendra-kr/node-js-project-structure#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.7"
+  }
+}
