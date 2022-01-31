@@ -131,8 +131,7 @@ header {
     width: 100%;
     max-width: 1600px;
     min-height: 100vh;
-    padding: 0px 150px;
-
+    padding: 0px 40px;
 }
 .main-section {
     display: flex;
@@ -325,7 +324,7 @@ ul.skills-list li::before {
     margin-bottom: 100px;
     counter-reset: featured;
 }
-.works li{
+.works .no-mark{
     margin-bottom: 100px;
 }
 .no-mark{
@@ -363,6 +362,7 @@ ul.skills-list li::before {
     font-size: clamp(40px, 5vw, 60px);
 }
 .socials{
+    display: none;
     width: 40px;
     position: fixed;
     bottom: 0px;
@@ -396,4 +396,12 @@ ul.skills-list li::before {
 .socials ul li a  svg {
     width: 20px;
     height: 20px;
+}
+@media (min-width: 992px) {
+    #app{
+        padding: 0px 150px;
+    }
+    .socials{
+        display: block;
+    }
 }
