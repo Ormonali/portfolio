@@ -485,3 +485,6 @@ ul.skills-list li::before {
   -o-transform: translateY(-13px) rotate(90deg);
   transform: translateY(-13px) rotate(90deg);
 }
+.slate-color{
+    color: var(--slate)!important;
+}
