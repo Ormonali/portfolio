@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "serve": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "node scripts/build-static.js"
   },
   "repository": {
     "type": "git",
